@@ -1,13 +1,7 @@
 function Pong() {
 
-
-
-
-
-
-        this.score = function() {
-
-        }
+        // this.score = function() {
+        // }
 
         this.reset = function(paused) {
             let alpha = paused ? fill(255,50) : fill(255,0);
