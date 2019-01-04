@@ -1,12 +1,13 @@
 function Ball() {
     this.x = 300;
     this.y = 300;
-    this.xspeed = 1;
+    this.xspeed = 0;
     this.yspeed = 0;
 
 
     this.show = function () {
-        fill(255);
+        fill(100);
+        stroke(255, 150);
         ellipse(this.x, this.y, 10, 10);   
     }
 
@@ -27,5 +28,6 @@ function Ball() {
         this.x = 300;
         this.y = 300;
         this.yspeed = 0;
+        this.xspeed = 0;
     }
 }

@@ -2,6 +2,7 @@ function Paddle(x, y) {
     this.x = x;
     this.y = y;
     this.yspeed = 0;
+    
 
 
     this.dir = function (y) {
@@ -15,12 +16,8 @@ function Paddle(x, y) {
 
     this.show = function() {
         rectMode(CENTER);
-        fill(255, 0, 0);
-        rect(this.x, this.y, 10, 70);
+        stroke(255, 150);
+        fill(100);
+        rect(this.x, this.y, 10, 70, 30);
     }
-
-    
-
-
-
 }
