@@ -9,6 +9,8 @@ var scoredDir = 1;
 var pong;
 var paused = true;
 
+
+
 function setup() {
     createCanvas(600, 600);
     pong = new Pong();
